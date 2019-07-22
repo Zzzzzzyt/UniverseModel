@@ -25,8 +25,8 @@ public class Stage extends ApplicationAdapter {
 	public void create() {
 
 		batch = new SpriteBatch();
-		img = new Texture("C:/Users/Æ¼/Pictures/Funny/ZHD.jpg");
-		img2 = new Texture("C:/Users/Æ¼/Pictures/Funny/GiantBaby.jpg");
+		img = new Texture("C:/ÕÔí²ì÷/Pictures/Funny/ZHD.jpg");
+		img2 = new Texture("C:/ÕÔí²ì÷/Pictures/Funny/GiantBaby.jpg");
 		for (int i = 0; i < n; i++) {
 			sprs.add(new Sprite(img));
 			UMObject obj = Launcher.objs.get(i);
